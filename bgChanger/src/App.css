@@ -1,0 +1,32 @@
+.main{
+  width: 100vh;
+  height: 100vh;
+}
+
+.options{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  bottom: 12;
+  border-radius: 30px;
+}
+
+.colorbtn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 10;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.colorbtn>button{
+  outline: none;
+  padding: 5px 20px;
+  /* background-color: red; */
+  border-radius: 30px;
+}
